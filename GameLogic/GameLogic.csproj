@@ -43,9 +43,13 @@
     <Compile Include="Enumerations\Color.cs" />
     <Compile Include="Interfaces\IColored.cs" />
     <Compile Include="Models\Abstract\Card.cs" />
+    <Compile Include="Models\Board.cs" />
     <Compile Include="Models\Deck.cs" />
     <Compile Include="Models\Abstract\Planeswalker.cs" />
+    <Compile Include="Models\ManaGem.cs" />
     <Compile Include="Models\Planeswalkers\Nissa.cs" />
+    <Compile Include="Models\Position.cs" />
+    <Compile Include="Models\RandomGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
